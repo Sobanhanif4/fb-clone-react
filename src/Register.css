@@ -1,0 +1,120 @@
+/* Register.css */
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .login_logo {
+    margin-bottom: 20px;
+  }
+  
+  .register_container {
+    width: 360px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .hr3 {
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+  }
+  
+  form {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .register_name {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .register_date,
+  .register_gender {
+    margin: 10px 0 5px;
+  }
+  
+  .register_date2,
+  .register_radiocontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .register_date2 select,
+  .register_radiocontainer input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wrapper label {
+    margin-right: 5px;
+  }
+  
+  .register_policy {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  
+  .register_policy span {
+    color: #385898;
+    cursor: pointer;
+  }
+  
+  .register_register {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .register_register:hover {
+    background-color: #155db2;
+  }
+  
+  .registere_login {
+    margin-top: 10px;
+    color: #385898;
+    cursor: pointer;
+  }
+  
+  .registere_login:hover {
+    text-decoration: underline;
+  }
+  
